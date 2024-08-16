@@ -1,0 +1,25 @@
+.pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+    div {
+      border: solid rgb(228, 228, 228) 1px;
+      margin: 5px 0;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    div:hover {
+      cursor: pointer;
+      background: #b4e4e9;;
+    }
+  
+    .active {
+      background: #b4e4e9;;
+      color: white;
+    }
+  }

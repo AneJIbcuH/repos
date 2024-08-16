@@ -1,0 +1,15 @@
+.div {
+    border-bottom: solid 2px rgb(217, 217, 217);
+    margin-right: 15px;
+    display: grid;
+    grid-template-columns: 350px 150px 150px 150px 250px;
+    grid-template-rows: 50px;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.hover:hover {
+    background: #b4e4e9;
+    cursor: pointer;
+}
+
